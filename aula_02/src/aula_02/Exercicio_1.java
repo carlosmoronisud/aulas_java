@@ -9,10 +9,10 @@ public class Exercicio_1 {
 		Scanner leia = new Scanner(System.in);
 		
 		System.out.println("Digite o Salario: ");
-		float salario = leia.nextInt();
+		float salario = leia.nextFloat();
 		
 		System.out.println("Digite o Abono: ");
-		float abono = leia.nextInt();
+		float abono = leia.nextFloat();
 		
 		System.out.printf("\nSeu novo salário é: %.2f", (salario + abono));
 		
