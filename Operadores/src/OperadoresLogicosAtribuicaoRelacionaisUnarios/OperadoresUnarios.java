@@ -1,4 +1,4 @@
-package aula_02;
+package OperadoresLogicosAtribuicaoRelacionaisUnarios;
 
  
 public class OperadoresUnarios {

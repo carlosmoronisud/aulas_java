@@ -1,6 +1,6 @@
-package aula_02;
+package OperadoresLogicosAtribuicaoRelacionaisUnarios;
 
-public class OperadoresLogicos {
+public class OperadoresRelacionais {
 
 	public static void main(String[] args) {
         
