@@ -21,7 +21,10 @@ public class Exercicio_4 {
         float n4 = leia.nextFloat();
         
         System.out.printf("\nA diferença do produto entre o número 1 e número 2 pelo produto entre o número 3 e o número 4 é:\n %.2f", ((n1 * n2) - (n3 * n4)));
+       
         
+        leia.close();
     }
+    
 
 }
