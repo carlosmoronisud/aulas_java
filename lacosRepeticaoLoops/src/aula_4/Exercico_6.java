@@ -1,7 +1,5 @@
 package aula_4;
-
 import java.util.Scanner;
-
 public class Exercico_6 {
 
     public static void main(String[] args) {
@@ -25,18 +23,11 @@ public class Exercico_6 {
         	}
         
         } while ( contador != 0);
-        leia.close();
+        
         if (qMultiplos3 > 0 ) {
         	media = (float) somaMultiplos / qMultiplos3;
-        }
-        
-        
-        System.out.printf("\nA média de todos os números múltiplos de 3 é: %.1f", media);		
-        
-       
-        
-        
+        }            
+        System.out.printf("\nA média de todos os números múltiplos de 3 é: %.1f", media);		        
+        leia.close();           
     }
-    
-
 }
