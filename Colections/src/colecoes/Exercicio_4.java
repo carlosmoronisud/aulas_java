@@ -23,11 +23,11 @@ public class Exercicio_4 {
         System.out.println(numeros);  
 
        
-        Scanner scanner = new Scanner(System.in);  
+        Scanner leia = new Scanner(System.in);  
         
      
         System.out.print("\nDigite o número que você deseja encontrar: ");  
-        int numeroBuscado = scanner.nextInt();  
+        int numeroBuscado = leia.nextInt();  
 
        
         if (numeros.contains(numeroBuscado)) {  
@@ -37,6 +37,6 @@ public class Exercicio_4 {
         }  
         
  
-        scanner.close();  
+        leia.close();  
     }  
 }  
